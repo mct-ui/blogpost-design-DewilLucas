@@ -28,7 +28,6 @@ html {
 }
 
 body {
-  max-width: 42em;
   margin: 0 auto;
 }
 
@@ -186,13 +185,6 @@ a:focus {
 @media (min-width: 1200px) {
 }
 
-/*
-    Print styles.
-    ---
-    Inlined to avoid the additional HTTP request:
-    http://www.phpied.com/delay-loading-your-print-css/
-*/
-
 /* 
     Component Author
 */
@@ -262,6 +254,13 @@ a:focus {
 .u-max_width_sm {
   max-width: 36em;
 }
+/*
+    Print styles.
+    ---
+    Inlined to avoid the additional HTTP request:
+    http://www.phpied.com/delay-loading-your-print-css/
+*/
+
 @media print {
   *,
   *:before,
